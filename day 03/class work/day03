@@ -1,0 +1,32 @@
+name= "giorgi"
+Name= "Jora"
+NAME="LUKA"
+
+
+print(Name)
+
+
+
+name_id="giorgi"
+
+Name_id2="nugzari"
+
+nAme_id3="guga"
+ 
+namE_id4="lika"
+
+print(name_id)
+
+
+
+
+user_name = "goga" 
+user_surname = "chalauri"  
+first_number = 200 
+second_number = 123 
+
+
+print(user_name)
+print(user_name)
+print(first_number)
+print(second_number)
