@@ -6,20 +6,26 @@
 #      print(str(i) + " hello world")
 
 # task3
-i = 3,18
-while i in range(3,18):
+i = 3
+while i <= 17:
      print(i)
+     i = i + 1
 
 
 
 
 
     # task4
-var1 = input("enter your password: ")
-if ("password is 1234 Password is correct "):
-     print("password is incorrect")
+
+password = input("enter your password: ")
+if password =="1234":
+     print("password is correct")
+else:
+     print("password isnt correct")
 
 # task5
-dog = input("enter your favorite animal: ")
-print("woaf! woaf!")
-
+animal = input("enter your favorite animal: ")
+if animal == "ძაღლი":
+     print("woaf! woaf!")
+else:
+     print("შენ არ გყავს ძაღლი")
