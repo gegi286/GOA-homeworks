@@ -30,7 +30,7 @@ while True:
     if guess == correct_password:
         print(f"Congratulations! pasword is correct. number of tries: {tries}")
     elif guess == "nah strong password":
-            print(f"you failed. number of tries {tries}")
+            print(f"you failed. number of tries{tries}")
             break
     else: 
         print("wrong password try again")

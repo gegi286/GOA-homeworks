@@ -6,7 +6,7 @@ else :
     print("more than 10")
 
 # task2
-i = input("enter your number: ")
+i = int(input("enter your number: "))
 if i == 15 :
     print("equal to 15")
 else : 
