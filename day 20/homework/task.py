@@ -150,15 +150,8 @@ elif surname != "Tchkadua":
     print("same name but different surname")
 else:
     print("aqedan moshordi")
+    
 #  task18
-# შექმენი ცვლადი სადაც შეინახავ პაროლს
-# მომხმარებელს შემოატანინე პაროლი
-# სანამ პირობა არის ჭეშმარიტი(True)
-#       თუ მომხმარებლის პაროლი დაემთხვა შენს პაროლს:
-#             დაპრინტე --> გამოიცანი
-#              break
-#       სხვა შემთხვევაში:
-#           თავიდან გაუმეორე რომ შემოიყვანოს პაროლი
 password = "12345678"
 your_password = input("enter your password: ")
 while True:
