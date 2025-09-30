@@ -18,10 +18,9 @@ if 0 < index < 10:
     print("dadebitia")
 elif index < 0 or index > 10:
     print("you entered negative or more than 10  number ")
-if 1 == 10:
-    print("1 equals to ten")
-else:
-    print( "you entered negative or more than 10  number ")
+elif index == 10:
+    print("index equals to ten")
+
 
 # task4
 My_list = ["dog" ," most" ,"is" ,"angry" ,"running", "forest", "fast", "in" , "cat" ,"human", "very"]
@@ -30,36 +29,38 @@ print(My_list[-3] + My_list[-9] + My_list[-1] + My_list[-8])
 
 # task5
 animals = ["dog", "cat", "horse", "cow", "sheep", "goat"]
-
-if animals == "cat":
+index = int(input("enter your number 0 - 6: "))
+if  animals[index] == "cat":
     print("შენ აირჩიე კატა")
-elif animals == "goat":
+elif animals[index] == "goat":
     print("შენ აირჩიე თხა")
 else :
      print("სხვა ცხოველი აირჩიე")
 
 # task6
 cities = ["tbilisi", "erevan", "ganja", "paris", "los angeles", "new york", "madrid"]
-v = print(input("enter your first number 0 - 6:  "))
-c = print(input("enter your second number 0 - 6: "))
-if c < v:
-     print("შეცვალე ინდექსები ადგილებით")
+v = print(input("enter your first number 0 - 7:  "))
+c = print(input("enter your second number 0 - 7: "))
+if v < c:
+     print(cities[v] + cities[c])
+elif v < c:
+     print(cities[c] + cities[v])
 elif v == c:
-     print("ორივე ერთია")
+    print(cities[v])
 
 # task7
-print(input("enter your word: "))
-if "first letter" == "A":
+b =(input("enter your word: "))
+if b[0] == "A":
     print("სიტყვა იწყება a-თი")
-elif "last letter" == "z":
+elif b[-1] == "z":
     print("სიტყვა მთავრდება z-ით")
-#else:
+else:
     print("სიტყვა არც a-თი იწყება და არც z-ით მთავრდება")
 
 # # task8
-print(input("enter your word: "))
+e = (input("enter your word: "))
 
-if "first letter" == "last letter":
+if e[0] == e[-1]:
      print("პირველი და ბოლო ერთნაირია")
 else:
      print("პირველი და ბოლო განსხვავებულია")
@@ -72,7 +73,7 @@ print(my_letters[7] + my_letters[0] + my_letters[10] + my_letters[9] + my_letter
 
 # task10
 name = "giorgi"
-for i in name:
+for i in range(1):
     print(i)
 
 my_name = ""
