@@ -14,7 +14,7 @@ def loading_screen_2(choice_option):
 
 
 
-         
+
 
 def loading_screen_1(choice_option):
  for i in range(2):  
@@ -23,10 +23,10 @@ def loading_screen_1(choice_option):
         
         time.sleep(0.5)  
         if i == 1 and dots == 3:
-         
+        
 
          if choice_option == "2":
-           print("\rdeposit successful,")
+            print("\rdeposit successful,")
 
         if i == 1 and dots == 3:
 
