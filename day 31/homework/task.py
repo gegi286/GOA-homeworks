@@ -35,12 +35,11 @@ print(names)
 
 # task6
 num = int(input("enter your number: "))
-if num % 2 == 1:
+if num % 2 == 0:
     print("ODD")
-elif num % 2 == 0:
+elif num % 2 == 1:
     print("EVEN")
-else:
-    print("bye")
+
 
 # task7
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -48,12 +47,11 @@ if numbers[3] % 2 == 0:
     print("Even number")
 elif numbers[3] % 2 == 1:
     print("Odd number")
-else:
-    print("get out!")
+
 
 # task8
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-if num[9] % 2 == 0 and num[9] > 50:
+if nums[9] % 2 == 0 and nums[9] > 50:
     print("ეს რიცხვი არის ლუწი და მეტი 50 ზე")
 elif nums[9] % 2 == 1 and nums[9] < 50:
     print("ეს რიცხვი არის კენტი და ნაკლები 50 ზე")
@@ -61,17 +59,17 @@ else:
     print("ეს რიცხვი არც კენტი და არც მეტი 50 ზე")
 
 # task9
-number = [66, 48, 92, 95, 99, 101, 799, 120, 50, 77]
+number = [66, 48, 92, 95, 99, 99, 799, 120, 50, 77]
 if number[5] % 2 == 0 or number[5] > 100:
     print("even or more than 100")
 elif number[3] % 2 == 1 or number[3] < 100:
-    print("even or more than 100")
+    print("odd or more than 100")
 else:
     print("ნახვამდის.")
 
 # task10
-number = [66, 48, 92, 95, 99, 101, 799, 120, 50, 77]
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+number = "გიორგი"
+nums = "საბა" 
 print(nums == number)
 
 print(nums != number)
