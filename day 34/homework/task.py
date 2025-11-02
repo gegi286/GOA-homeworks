@@ -11,9 +11,12 @@ for i in range(len(arr)):
         print(arr[i])
 
 # task3
+num = 0
 number = [7, 11, 10, 77, 99, 3, 8, 22]
-for i in range(number[i]):
-    print(i)
+for i in range(8):
+    num = num + 1
+print(num)
+
 
 # task4
 arrr = ["hidroeleqtrosadguri", "hghrowertyuuiop", "7", "True", "6.7", "GOA"]
@@ -30,7 +33,6 @@ for i in range(len(word)):
     if word[i] == "a" or word[i] == "A":
         count = count + 1
 print(total,count)
-
 # task6
 py = ["gegii", "goga", "nika", "GOA"]
 max = len(py[0])

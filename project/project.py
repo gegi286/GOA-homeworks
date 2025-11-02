@@ -177,8 +177,8 @@ while True:
                             if total <= accounts[username]['balance']:
                                 accounts[username]['balance'] -= total
                                 converted_amount = convert(amount,
-                                                           accounts[username]['currency'],
-                                                           accounts[recipient]['currency'])
+                                                            accounts[username]['currency'],
+                                                            accounts[recipient]['currency'])
                                 accounts[recipient]['balance'] += converted_amount
                                 loading_screen_1(bank_choice)
                                 slow_print(f"Transfer successful! {amount} {accounts[username]['currency']} converted to {converted_amount:.2f} {accounts[recipient]['currency']}.")
