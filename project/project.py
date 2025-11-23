@@ -3,9 +3,9 @@ import sys
 
 
 def loading_screen_2(choice_option):
- for i in range(3):  
-    for dots in range(4):  
-        sys.stdout.write("\rLoading transaction history" + "." * dots + "   ") 
+    for i in range(3):  
+        for dots in range(4):  
+            sys.stdout.write("\rLoading transaction history" + "." * dots + "   ") 
         
         time.sleep(0.5)  
         if i == 2 and dots == 3:
@@ -17,37 +17,37 @@ def loading_screen_2(choice_option):
 
 
 def loading_screen_1(choice_option):
- for i in range(2):  
-    for dots in range(4):  
-        sys.stdout.write("\rLoading " + "." * dots + "   ")  
+    for i in range(2):  
+        for dots in range(4):  
+            sys.stdout.write("\rLoading " + "." * dots + "   ")  
         
         time.sleep(0.5)  
         if i == 1 and dots == 3:
         
 
-         if choice_option == "2":
-            print("\rdeposit successful,")
+            if choice_option == "2":
+                print("\rdeposit successful,")
 
         if i == 1 and dots == 3:
 
-          if choice_option == "3":
-             print("")
+            if choice_option == "3":
+                print("")
         if i == 1 and dots == 3:
 
-         if choice_option == "4":
-            print("")
+            if choice_option == "4":
+                print("")
 
         if i == 1  and dots == 3:
 
 
-          if choice_option == "5":
-            print("")  
+            if choice_option == "5":
+                print("")  
         
 
         if i == 2 and dots == 3:
 
-         if choice_option == "7":
-            print("")
+            if choice_option == "7":
+                print("")
 
         
 
@@ -57,16 +57,16 @@ def loading_screen_1(choice_option):
 
 
 def loading_screen_0(choice_option):
- for i in range(2):  
-    for dots in range(4):  
-        sys.stdout.write("\rLoading" + "." * dots + "   ")  
+    for i in range(2):  
+        for dots in range(4):  
+            sys.stdout.write("\rLoading" + "." * dots + "   ")  
         
         time.sleep(0.5)  
         if i == 1 and dots == 3:
-         
+    
 
-         if choice_option == "1":
-           print("\rlogin successful,")
+            if choice_option == "1":
+                print("\rlogin successful,")
 
 
 
@@ -218,14 +218,14 @@ while True:
                                         if not data["history"]:
                                             slow_print(" - No transactions yet.")
                                         else:
-                                         for entry in data["history"]:
+                                            for entry in data["history"]:
                                                 slow_print(" - " + entry)
                                 else:
-                                   
+                                
                                     if not accounts[username]["history"]:
-                                     slow_print("No transactions yet.")
+                                        slow_print("No transactions yet.")
                                     else:
-                                     for entry in accounts[username]["history"]:
+                                        for entry in accounts[username]["history"]:
                                             slow_print("- " + entry)
 
                             elif settings_option == "3":

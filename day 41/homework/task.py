@@ -28,7 +28,7 @@ names1.append(name)
 print(names1)
 
 # task5
-name1 = ["nugzari", "gela", "lela", "giurza", "mate"]
+name1 = ["nugzari", "gela", "lela", "gegi" "giurza", "mate"]
 
 name1.insert(3, "gegi")
 
