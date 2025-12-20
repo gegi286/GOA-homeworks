@@ -1,0 +1,97 @@
+1. საერთო სტილები
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+*: სტილი გამოიყენება ყველა ელემენტზე ვებგვერდზე (универсალური მორგება). ეს ცვლის მარჟინებს და padding-ს, რათა ყველა ელემენტს ჰქონდეს სტანდარტული მარჟინები და პადინგი.
+
+box-sizing: border-box;: როდესაც ზომები განისაზღვრება, საზღვარი და padding არ მიემატება ელემენტის ზომას, რაც ვებგვერდის layout-ს ხდის უფრო მყარს.
+
+font-family: 'Segoe UI', Arial, sans-serif;: ასპექტი განსაზღვრავს ფონტს. თუ 'Segoe UI' არ არის ხელმისაწვდომი, გამოიყენება Arial ან sans-serif.
+
+2. Body სტილი
+body {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+
+background-color: #f8f9fa;: ფონდის ფერი გამოიყურება ღია ნაცრისფრად.
+
+color: #2c3e50;: ტექსტის ფერი გამოიყენებს მუქ ლურჯს.
+
+line-height: 1.6;: მართავს ხაზებს შორის მანძილს, რაც ტექსტს უფრო მოსახერხებელს ხდის.
+
+3. Header სტილი
+header {
+    background: linear-gradient(135deg, #002244 0%, #003366 100%);
+    padding: 20px 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+background: linear-gradient(135deg, #002244 0%, #003366 100%);: ქმნის გრადიენტს, რომელიც იწვევს ფერების გადავლას მუქი ლურჯიდან მუქ ლურჯად.
+
+padding: 20px 0;: შიდა მარჟინები ზემოთ და ქვემოთ.
+
+box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);: განსაზღვრავს სიბნელის ეფექტს, რომელიც ჰგავს ჩრდილს.
+
+position: sticky;: ამ ხაზით მნიშნველოვანია, რომ ჰედერი დარჩება დოკუმენტის ზედაპირზე რომ არ გადავიდეს როდესაც გვერდი სკროლდება.
+
+top: 0;: ჰედერი მუდმივად დარჩება ზედა მხარეს.
+
+z-index: 100;: ზ-index განსაზღვრავს რენდერის ზედა მნიშვნელობას. მაღალი მნიშვნელობა ნიშნავს რომ ელემენტი იქნება "ზემოდან".
+
+4. Nav (ნავიგაციის მენიუ)
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+max-width: 1200px;: განსაზღვრავს მაქსიმალურ სიგანეს ნავიგაციის ელემენტებისთვის.
+
+margin: 0 auto;: მენიუს ცენტრი ადგილას დგება.
+
+padding: 0 20px;: padding-ი მარცხნივ და მარჯვნივ.
+
+display: flex;: ელემენტები განლაგდება "flexbox"-ის გამოყენებით.
+
+justify-content: space-between;: ელემენტები განაწილდება მარცხნივ და მარჯვნივ შორის.
+
+align-items: center;: ალაინდება მენიუ ვერტიკალურად ცენტრში.
+
+5. .logo (ლოგო)
+.ლოგო h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+color: white;: ლოგო იქნება თეთრი ფერის.
+
+font-size: 26px;: ტექსტის ზომა.
+
+font-weight: 600;: მტკიცე, დაძაბული შრიფტი.
+
+letter-spacing: 1px;: სიმბოლოებს შორის მანძილის გაზრდა.
+
+6. .nav-links (ნავიგაციის ბმულები)
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
