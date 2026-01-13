@@ -1,26 +1,26 @@
-# # task1
-# word = ["Giorgi", "Goga", "nika", "mate", "Nugzari"]
-# Upper_name = []
-# for i in word:
-#     if i == i.capitalize():
-#         Upper_name.append(i)
-# print(Upper_name)
+# task1
+word = ["Giorgi", "Goga", "nika", "mate", "Nugzari"]
+Upper_name = []
+for i in word:
+    if i == i.capitalize():
+        Upper_name.append(i)
+print(Upper_name)
 
-# # task2
-# names = ["giorgi", "nika", "ana", "luka", "mari", "daviti"]
-# surname = ["Chalauri", "Malaymadze", "Kvaratskhelia"]
-# for i in names:
-#     if i == i.lower():
-#         print(i.upper())
+# task2
+names = ["giorgi", "nika", "ana", "luka", "mari", "daviti"]
+surname = ["Chalauri", "Malaymadze", "Kvaratskhelia"]
+for i in names:
+    if i == i.lower():
+        print(i.upper())
 
-# for i in surname:
-#     if i == i.capitalize():
-#         print(i.lower())
+for i in surname:
+    if i == i.capitalize():
+        print(i.lower())
 
-# for i in range(1):
-#     if 10 == 10:
-#         surname.append(names)
-#         print(surname)
+for i in range(1):
+    if 10 == 10:
+        surname.append(names)
+        print(surname)
 
 # task3
 words = ["manqana", "dzagli", "avtofarexi", "MERCEDES"]

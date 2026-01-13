@@ -14,10 +14,11 @@ print(names)
 
 # task3
 word = "me miyvrars manqanebii"
+new_word = ""
 for i in word:
     if i in "aeiou":
-        print(i)
-
+        new_word += i
+print(new_word)
 # task4
 nothing = ["irakli", "manqana", "deda", "hidroeleqtrosadguri"]
 for i in nothing:
