@@ -1,0 +1,29 @@
+/* task1 */
+p{
+font-size: 50px;
+border: solid green;
+color: yellow;
+text-align: center;
+}
+
+button{
+height: 60px;
+width: 100px;
+background-color: red;
+color: yellow;
+border: none;
+}
+/* task2 */
+div ul{
+    color: red;
+    font-size: 35px;
+    border: solid green;
+    background-color: blue;
+}
+
+nav ul{
+    color: brown;
+    font-size: 50px;
+    border: solid purple;
+    background-color: yellow;
+}

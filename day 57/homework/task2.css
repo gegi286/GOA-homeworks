@@ -1,0 +1,20 @@
+div ol p{
+font-size: 27px;
+color: yellow;
+background-color: pink;
+border: 5px solid black;
+}
+
+div ol h1{
+font-size: 27px;
+color: yellow;
+background-color: pink;
+border: 5px solid black;
+}
+
+section ol p{
+font-size: 36px;
+color: green;
+background-color: red;
+border: 8px solid brown;
+}
