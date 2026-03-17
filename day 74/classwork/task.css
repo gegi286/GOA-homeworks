@@ -1,0 +1,35 @@
+.like:link{
+    color: blue;
+    background-color: brown;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.my:hover{
+    color: green;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.new:active{
+    color: blue;
+    background-color: cyan;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video:visited{
+    color: orange;
+    background-color: red;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}

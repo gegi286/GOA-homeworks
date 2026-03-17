@@ -1,0 +1,48 @@
+.re{
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* task2 */
+.ro:hover{
+    font-weight: bold;
+    color: red;
+}
+
+/* task3 */
+.ra:visited{
+    color: purple;
+    font-family: Arial;
+}
+
+/* task4 */
+.ru:active{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* task5 */
+.ri:hover{
+    text-decoration: underline;
+    color: green;
+    font-size: 20px;
+}
+
+/* task6 */
+.er:visited{
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+}
+
+/* task7 */
+.ir:link{
+    color: yellow;
+    font-family: Verdana;
+}
+
+.ir:active {
+    border: 3px solid red;
+    background-color: pink;
+}
