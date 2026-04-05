@@ -1,0 +1,32 @@
+ol.books {
+    list-style: upper-roman inside; 
+    width: 450px;
+    padding: 15px;
+    font-family: "Georgia", serif; 
+    font-size: 18px;
+    color: #2e3b4e; 
+    background-color: #f0f4f8; 
+    border: 2px solid #1a237e; 
+}
+
+ol.books li {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+        
+ul.chapters {
+    list-style: square outside; 
+    padding-left: 30px;
+    font-family: "Georgia", serif; 
+    font-size: 16px;
+    color: #4a148c; 
+    background-color: #ede7f6; 
+    border: 2px dashed #6a1b9a; 
+    margin-top: 8px;
+}
+
+ul.chapters li {
+    margin-bottom: 6px;
+    padding: 4px;
+}

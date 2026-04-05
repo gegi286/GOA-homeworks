@@ -1,0 +1,13 @@
+.id3{
+    padding:60px 40px;
+    border-top: 1px solid red;
+    border-right: 2px solid blue;
+    border-bottom: 3px solid green;
+    border-left: 4px solid yellow;
+}
+.id2{
+    margin: 148px;
+}
+.id4{
+    margin: 148px;
+}

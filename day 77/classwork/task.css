@@ -1,0 +1,6 @@
+.id2{
+    list-style: inside url("heart.png");
+}
+.id1{
+    list-style: outside url("heart.png");
+}

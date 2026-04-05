@@ -1,0 +1,28 @@
+ol.recipe {
+            list-style: decimal, inside; 
+            width: 400px;
+            padding: 15px;
+            font-family: "Brush Script MT", cursive; 
+            font-size: 18px; 
+            color: #4e342e; 
+            background-color: #fff3e0; 
+        }
+
+        ol.recipe li {
+            margin-bottom: 12px;
+            padding: 8px;
+            transition: 0.3s; 
+        }
+
+        
+        ol.recipe li:hover {
+            background-color: #ffcc80; 
+            color: #bf360c;            
+            cursor: pointer;
+        }
+
+        
+        ol.recipe li:active {
+            background-color: #ffa726; 
+            color: #ffffff;            
+        }
