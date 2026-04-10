@@ -1,0 +1,14 @@
+.id1{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    border: 4px solid black;
+}
+div div{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: blue;
+    align-items: center;
+}

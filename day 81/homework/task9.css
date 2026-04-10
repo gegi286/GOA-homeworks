@@ -1,0 +1,15 @@
+.id1{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    border: solid purple;
+}
+
+div div{
+    flex-direction: column-reverse;
+    padding: 40px;
+    margin: 40px;
+    font-size: 15px;
+    background-color: aqua;
+}

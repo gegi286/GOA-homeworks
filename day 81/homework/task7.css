@@ -1,0 +1,16 @@
+.id1{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    background-color: lightskyblue;
+    border: solid black;
+}
+
+div div{
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    margin: 20px;
+    font-size: 14px;
+    background-color: orange;
+}
