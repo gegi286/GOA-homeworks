@@ -1,0 +1,15 @@
+.id1{
+    width: 500px;
+    border: 5px solid lightgreen;
+    display: flex;
+    justify-content: end;
+    background-color: blue;
+    height: 150px;
+}
+.id2{
+    background-color: rgb(235, 153, 29);
+    border: 2px solid black;
+    width: 125px;
+    border-radius: 10px;
+
+}

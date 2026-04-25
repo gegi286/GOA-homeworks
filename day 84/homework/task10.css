@@ -1,0 +1,13 @@
+.id1{
+    font-size: 400px;
+    display: flex;
+    background-color: chocolate;
+    border: 6px solid blue;
+    flex-wrap: wrap;
+}
+.id2{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    background-color: darkgreen;
+    border: 2px solid black;
+}

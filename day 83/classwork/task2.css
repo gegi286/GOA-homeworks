@@ -1,0 +1,22 @@
+.id1{
+    display: flex;
+    height: 800px;
+    width: 800px;
+    border: 4px solid blue;
+    flex-wrap: wrap;
+    ;
+}
+.id1{
+    flex-wrap: nowrap;
+}
+
+.id1{
+    flex-wrap: wrap-reverse;
+}
+
+div div{
+    height: 400px;
+    width: 400px;
+    border: 6px solid red;
+}
+

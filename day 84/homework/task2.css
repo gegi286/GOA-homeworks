@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+}
+
+.item {
+    width: 100px;
+    height: 80px;
+    background: lightblue;
+    border: 1px solid black;
+}
+
+.grow {
+    flex-grow: 1;
+}

@@ -1,0 +1,17 @@
+.id1{
+    width: 500px;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 200px;
+}
+
+.id2{
+    background-color: rgb(235, 153, 29);
+    border: 2px solid black;
+    width: 125px;
+    border-radius: 10px;
+    height: 50px;
+}

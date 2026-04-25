@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#45c2e8;
+    font-family:Arial, sans-serif;
+}
+
+.id1{
+    width:300px;
+    background:white;
+    padding:25px;
+}
+
+h1{
+    color:#63c7e8;
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+input{
+    width:100px;
+    padding:10px;
+    margin-bottom:12px;
+    border:1px solid #ddd;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#45c2e8;
+    border:none;
+    color:white;
+}

@@ -1,0 +1,14 @@
+#id1{
+    width:400px;
+    border:2px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+#id2{
+    width:120px;
+    height:100px;
+    background:skyblue;
+    border:1px solid black;
+}

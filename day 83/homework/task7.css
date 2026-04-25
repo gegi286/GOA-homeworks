@@ -1,0 +1,7 @@
+.id1{
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    list-style:none;
+}

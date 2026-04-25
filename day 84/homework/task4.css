@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.item {
+    width: 120px;
+    height: 80px;
+    background: lightgray;
+    border: 1px solid black;
+    
+}
+
+.item:hover {
+    background: orange;
+}
+
+.grow:hover {
+    flex-grow: 1;
+}

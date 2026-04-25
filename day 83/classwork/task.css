@@ -1,0 +1,30 @@
+div{
+    height: 500px;
+    width: 500px;
+    border: 3px solid red;
+}
+div div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.id11{
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+
+.id12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.id13{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+

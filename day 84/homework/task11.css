@@ -1,0 +1,34 @@
+.menu{
+    display:flex;
+    gap:20px;
+    flex-shrink:1;
+}
+
+.id1{
+    flex-shrink:0;
+}
+
+.id2{
+    flex-shrink:0;
+}
+
+.id3{
+    text-decoration:none;
+    color:black;
+}
+
+.id4{
+    text-decoration:none;
+    color:black;
+}
+
+.id5{
+    text-decoration:none;
+    color:black;
+}
+
+.id6{
+    padding:10px 15px;
+}
+
+/* the end */

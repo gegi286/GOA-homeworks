@@ -1,0 +1,17 @@
+.id1{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    border: 5px solid red;
+}
+.id2{
+    flex-basis: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.id3{
+    flex-basis: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    flex-shrink: 2;
+}
