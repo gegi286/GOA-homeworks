@@ -1,0 +1,23 @@
+# task1
+# def likes(names):
+#     n = len(names)
+#     if n == 0:
+#         return "no one likes this"
+#     if n == 1:
+#         return names[0] + " likes this"
+#     if n == 2:
+#         return names[0] + " and " + names[1] + " like this"
+#     if n == 3:
+#         return names[0] + ", " + names[1] + " and " + names[2] + " like this"
+
+#     return names[0] + ", " + names[1] + " and " + str(n - 2) + " others like this"
+
+# task2
+# def to_float_array(arr): 
+#     new_arr = []
+#     for i in arr:
+#         new_arr.append(float(i))
+#     return new_arr
+
+# task3
+# ver gavige
