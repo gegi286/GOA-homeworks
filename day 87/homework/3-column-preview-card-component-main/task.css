@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    width:930px;
+    height:520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.div1{
+    background-color: rgb(235, 141, 46);
+}
+
+.div2{
+    background-color: rgb(11, 125, 123);
+}
+
+.div3{
+    background-color: rgb(5, 77, 69);
+}
+
+.parent div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 40px;
+    gap: 50px;
+}
+h1{
+    font-family: "Big Shoulders", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p , button{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 30px; 
+    font-size: 16px;
+    padding: 12px 28px; 
+    cursor: pointer;
+    display: flex;
+    margin-top: 45px;
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2{
+    color: rgb(7, 153, 153);
+}
+
+.btn3{
+    color: rgb(9, 97, 97);
+}
