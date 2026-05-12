@@ -118,3 +118,10 @@ body{
     opacity: 90%;
     margin-bottom: 30px;
 }
+
+#hp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}

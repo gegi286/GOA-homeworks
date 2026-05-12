@@ -15,7 +15,7 @@ body{
 
 .parent{
     width:930px;
-    height:520px;
+    height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body{
     justify-content: start;
     align-items: start;
     padding: 40px;
-    gap: 50px;
+    gap: 47px;
 }
 h1{
     font-family: "Big Shoulders", sans-serif;
@@ -62,6 +62,7 @@ p{
 }
 
 button {
+    height: 80px;
     background-color: #ffffff; 
     border: none;
     border-radius: 30px; 
@@ -72,7 +73,7 @@ button {
     margin-top: 45px;
 }
 
-.btn1{
+.btn{
     color: hsl(31, 77%, 52%);
 }
 
@@ -82,4 +83,16 @@ button {
 
 .btn3{
     color: rgb(9, 97, 97);
+}
+
+.p1{
+    color: rgb(244, 183, 121);
+}
+
+.p2{
+    color: rgb(131, 206, 213);
+}
+
+.p3{
+    color: rgb(112, 157, 158);
 }
