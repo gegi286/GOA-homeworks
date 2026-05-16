@@ -1,0 +1,14 @@
+.box-static {
+    width: 100px;
+    height: 50px;
+    background: orange;
+    position: static;
+}
+
+.box-relative {
+    width: 100px;
+    height: 50px;
+    background: purple;
+    position: relative;
+    left: -40px;
+}

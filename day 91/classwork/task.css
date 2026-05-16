@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    gap: 12px;
+}
+
+.child{
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+}
+#one{
+    background-color: blue;
+}
+#two{
+    background-color: red;
+    position: relative;
+    left: 106px;
+    top: 65px;
+}
+#three{
+    background-color:green;
+}
+#four{
+    background-color: yellow;
+}
