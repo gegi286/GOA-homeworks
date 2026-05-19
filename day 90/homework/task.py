@@ -26,6 +26,7 @@
 #         if i in seen:
 #             return False
 #         seen.add(i)
+#         seen.append(i)
 #     return True
 
 # task4
