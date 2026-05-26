@@ -1,0 +1,6 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background: orange;
+    padding: 20px;
+}

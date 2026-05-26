@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000vh;
+}
+
+.parent{
+    border: 5px solid red;
+}
+.child{
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+}
