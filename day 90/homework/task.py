@@ -25,7 +25,6 @@
 #     for i in string:
 #         if i in seen:
 #             return False
-#         seen.add(i)
 #         seen.append(i)
 #     return True
 

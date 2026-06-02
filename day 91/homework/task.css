@@ -18,20 +18,30 @@
 
 /* task2 */
 
-.box { 
-    width: 50px; 
-    height: 50px; 
-    display: inline-block; 
+.parent {
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    display: flex;
 }
-.red { 
+
+.box {
+    width: 50px;
+    height: 50px;
+    flex-direction: row;
+}
+
+.red {
     background: red;
 }
-.green { 
-    background: green; 
+
+.green {
+    background: green;
     position: relative;
-    left: 30px; 
-    top: 20px; 
+    left: 30px;
+    top: 20px;
 }
-.blue { 
-    background: blue; 
+
+.blue {
+    background: blue;
 }
