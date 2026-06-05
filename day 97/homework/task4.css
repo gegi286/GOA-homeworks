@@ -1,0 +1,9 @@
+.parent {
+    width: 400px;
+    height: 250px;
+    background-image: url("shopping.webp");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border: 1px solid #ccc; 
+}

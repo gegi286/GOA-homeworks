@@ -1,0 +1,19 @@
+.parent {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url('download\ \(1\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
