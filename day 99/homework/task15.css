@@ -1,0 +1,15 @@
+.shvili-divi {
+    width: 200px;
+    height: 100px;
+    background-color: #ff5722;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.shvili-divi:hover {
+    transform: rotateX(60deg);
+}

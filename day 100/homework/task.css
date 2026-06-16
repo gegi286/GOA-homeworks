@@ -1,0 +1,17 @@
+.custom-button {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ffffff;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out, background-color 0.4s ease, color 0.6s ease, box-shadow 0.8s ;
+}
+
+.custom-button:hover {
+    transform: scale(1.2);
+    background-color: #2ecc71;
+    color: #2c3e50;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}

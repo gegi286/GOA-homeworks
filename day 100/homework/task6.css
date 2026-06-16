@@ -1,0 +1,21 @@
+.gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.gallery-item {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transform: scale(1);
+    transition: transform 0.4s ease-out;
+}
+
+.gallery:hover .gallery-item {
+    transform: scale(0.8);
+}
+
+.gallery .gallery-item:hover {
+    transform: scale(1.2);
+}

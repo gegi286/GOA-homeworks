@@ -1,0 +1,11 @@
+.shvili-ghilaki {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.shvili-ghilaki:hover {
+    transform: translate(10px, 15px);
+}

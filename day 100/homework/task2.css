@@ -1,0 +1,30 @@
+.card {
+    width: 300px;
+    height: 150px;
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    transition: height 0.5s ease-in-out;
+}
+
+.hidden-text {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 15px;
+    color: #555;
+
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
+}
+
+.card:hover {
+    height: 300px;
+}
+
+.card:hover .hidden-text {
+    opacity: 1;
+    visibility: visible;
+}

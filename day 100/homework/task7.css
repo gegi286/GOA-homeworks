@@ -1,0 +1,28 @@
+.info-block {
+    width: 300px;
+    height: 60px;
+    background-color: #34495e;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: height 0.5s ease-out, background-color 0.5s ease-out;
+}
+
+.hidden-info {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 15px;
+    color: #ecf0f1;
+    transition: opacity 0.4s ease-out 0.1s, visibility 0.4s;
+}
+
+.info-block:hover {
+    height: 160px;
+    background-color: #1abc9c;
+}
+
+.info-block:hover .hidden-info {
+    opacity: 1;
+    visibility: visible;
+}

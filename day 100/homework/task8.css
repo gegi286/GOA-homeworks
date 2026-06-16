@@ -1,0 +1,35 @@
+.traffic-light {
+    display: flex;
+    gap: 20px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s linear 0.5s;
+}
+
+.red {
+    background-color: #cf0000;
+}
+
+.yellow {
+    background-color: #ffd000;
+}
+
+.green {
+    background-color: #00a814;
+}
+
+.red:hover {
+    box-shadow: 0 0 25px #ff4242;
+}
+
+.yellow:hover {
+    box-shadow: 0 0 25px #fbe524;
+}
+
+.green:hover {
+    box-shadow: 0 0 25px #49ff67;
+}

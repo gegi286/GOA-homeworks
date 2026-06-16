@@ -1,0 +1,13 @@
+.shvili-mikitxva-ghilaki {
+    padding: 12px 24px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.shvili-mikitxva-ghilaki:hover {
+    transform: scale(1.2);
+}
