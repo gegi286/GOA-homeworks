@@ -69,6 +69,6 @@
 # print(multifly(2, 1))
 
 
-def position(letter):
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    print("Position of alphabet: " + str(alphabet.index(letter) + 1))
+# def position(letter):
+#     alphabet = "abcdefghijklmnopqrstuvwxyz"
+#     print("Position of alphabet: " + str(alphabet.index(letter) + 1))

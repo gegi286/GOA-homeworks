@@ -1,0 +1,17 @@
+
+@keyframes moveright {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 500px;
+    }
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: moveright 3s linear infinite;
+}

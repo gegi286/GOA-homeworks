@@ -1,0 +1,16 @@
+@keyframes moveToRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(800px);
+    }
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation: moveToRight 4s linear 3s 5;
+}

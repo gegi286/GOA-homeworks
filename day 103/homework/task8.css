@@ -1,0 +1,16 @@
+
+@keyframes move {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 400px;
+    }
+}
+
+.expanding-div {
+    height: 50px;
+    background-color: blue;
+    animation: move 5s ease 1s forwards;
+}

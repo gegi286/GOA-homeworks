@@ -1,0 +1,13 @@
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.child {
+    opacity: 0;
+    animation: move 1s ease 2s forwards;
+}

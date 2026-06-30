@@ -1,0 +1,26 @@
+.child{
+    width: 150px;
+    height: 150px;
+    background: red;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move{
+    from{
+        background: red;
+        transform: translateY(0) rorate(0) scale(1);
+        border-radius: 0;
+    }
+
+    to{
+        background: purple;
+        transform: translateY(100px) rorate(90deg);
+        border-radius: 50px;
+        transform: scale(3);
+    }
+}

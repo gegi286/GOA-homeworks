@@ -1,0 +1,22 @@
+@keyframes superTransform {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        transform: rotate(360deg);
+    }
+}
+
+.magic-square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: superTransform 2s ease 1s forwards;
+}

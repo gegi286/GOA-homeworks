@@ -1,0 +1,18 @@
+@keyframes move {
+    0% {
+        transform: scale(0.5) translateY(0);
+        background-color: white;
+    }
+
+    100% {
+        transform: scale(1.5) translateY(-500px);
+        background-color: red;
+    }
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    animation: move 3s ease-in infinite;
+}

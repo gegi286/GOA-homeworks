@@ -1,0 +1,20 @@
+.child{
+    height: 150px;
+    width: 150px;
+    background:blue;
+    animation-name: move;
+    animation-duration: 3s;
+}
+@keyframes move{
+    from{
+
+    }
+
+    to{
+        transform: translate(200px, 100px) rotate(360deg);
+        background-color: purple;
+        width: 200px;
+        height: 200px;
+        border-radius: 40%;
+    }
+}

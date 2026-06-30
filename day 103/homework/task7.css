@@ -1,0 +1,19 @@
+@keyframes move {
+    0% {
+        transform: translateY(0);
+        background-color: yellow;
+    }
+
+    100% {
+        transform: translateY(-250px);
+        background-color: orange;
+    }
+}
+
+.child {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: move 4s forwards;
+}
