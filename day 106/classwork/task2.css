@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c2c2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: red 2px solid;
+    display: flex;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    align-content: end;
+    justify-items: center;
+    align-items: end;
+}
+
+.red {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}

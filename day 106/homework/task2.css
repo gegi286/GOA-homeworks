@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: 100px;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+}
