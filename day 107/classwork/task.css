@@ -1,0 +1,26 @@
+.parent {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: red solid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    justify-content: end;
+    align-content: end;
+}
+
+.red {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    justify-self: end;
+}
+
+.blue {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    align-self: end;
+    justify-self: start;
+}
