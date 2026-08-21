@@ -1,0 +1,1 @@
+# davaleba iyo proeqtze samushao da am proeqts er failshi vaketebdi da amitom ar aris aq davaleba;)

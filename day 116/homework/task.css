@@ -63,6 +63,7 @@ a {
 .products-grid {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -96,12 +97,12 @@ a {
 }
 
 .feature-section {
-    background-color: #eaeaea;
+    background-color: rgb(255, 255, 255);
     padding: 50px 0;
 }
 
 .feature-section.white-bg {
-    background-color: #fff;
+    background-color: rgb(234, 234, 234);
 }
 
 .feature-container {
@@ -147,11 +148,11 @@ a {
     font-size: 12px;
     font-weight: bold;
     text-decoration: underline;
+    pro
 }
 
 @media (max-width: 768px) {
     .products-grid {
-        flex-direction: column;
         align-items: center;
     }
 
