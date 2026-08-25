@@ -21,19 +21,20 @@ body {
     gap: 5px;
 }
 
-.button{
+.button {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
 }
 
-.btn-green img {
+.btn-green {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 20px;
-    width: 20px;
+    align-items: center;
+    height: 50px;
+    width: 170px;
 }
 
 .green-text {
@@ -75,7 +76,7 @@ body {
     background-color: #F5F7FA;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     justify-content: end;
     padding: 40px;
 }
@@ -113,7 +114,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .client-logos img {
@@ -170,22 +171,218 @@ body {
     line-height: 1.5;
 }
 
-@media (max-width: 992px) {
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
 
+.first div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 35px;
+    width: 40%;
+}
+
+.first h1 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.first p {
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 70%;
+}
+
+.first img {
+    width: 400px;
+}
+
+.meore {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 80px;
+    gap: 40px;
+}
+
+.satauri h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #4D4D4D;
+}
+
+.satauri p {
+    color: #18191F;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.statistika {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+}
+
+.kartochka {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.kartochka img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.kartochka h2 {
+    font-size: 28px;
+    color: #4D4D4D;
+    font-weight: 700;
+}
+
+.kartochka p {
+    font-size: 16px;
+    color: #717171;
+}
+
+.mesame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    gap: 50px;
+}
+
+.foturimij {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.teksti {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.teksti h1 {
+    font-size: 36px;
+    color: #4D4D4D;
+    line-height: 1.2;
+}
+
+.teksti p {
+    font-size: 14px;
+    color: #717171;
+    line-height: 1.6;
+}
+
+.otxi {
+    background-color: #F5F7FA;
+    display: flex;
+    padding: 50px 80px;
+    gap: 60px;
+    align-items: center;
+}
+
+.shinaarsi {
+    display: flex;
+    flex-direction: column;
+}
+
+.shinaarsi p {
+    color: #717171;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.saxeli {
+    color: #4CAF4F;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.pozicia {
+    color: #89939E;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.klientebi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logoebi {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.logoebi img {
+    height: 32px;
+    object-fit: contain;
+}
+
+.bmuli {
+    color: #4CAF4F;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+@media (max-width: 1024px) {
     .header,
     .hero,
     .clients,
-    .community {
-        padding-left: 30px;
-        padding-right: 30px;
+    .community,
+    .first,
+    .meore,
+    .mesame,
+    .otxi {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+    }
+
+    .first h1,
+    .satauri h1,
+    .teksti h1 {
+        font-size: 30px;
     }
 }
+
 
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
         padding: 20px;
+    }
+
+    .button {
+        flex-direction: column;
+        gap: 15px;
     }
 
     .nav-links {
@@ -194,23 +391,122 @@ body {
         gap: 15px;
     }
 
+    .nav-links a {
+        font-size: 14px;
+    }
+
     .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-text p,
+    .first p,
+    .satauri p,
+    .teksti p,
+    .shinaarsi p {
+        font-size: 14px;
+    }
+
+    .cards-wrapper {
+        flex-direction: column;
+    }
+
+    .first {
         flex-direction: column;
         text-align: center;
         padding: 40px 20px;
     }
 
-    .hero-text h1 {
-        font-size: 36px;
+    .first div {
+        width: 100%;
+        align-items: center;
     }
 
-    .client-logos {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 25px;
+    .first h1,
+    .satauri h1,
+    .teksti h1 {
+        font-size: 24px;
     }
 
-    .cards-wrapper {
+    .meore {
         flex-direction: column;
+        text-align: center;
+        gap: 35px;
+        padding: 40px 20px;
+    }
+
+    .kartochka h2 {
+        font-size: 22px;
+    }
+
+    .kartochka p {
+        font-size: 14px;
+    }
+
+    .mesame {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .teksti {
+        align-items: center;
+    }
+
+    .otxi {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .siamobneba {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logoebi {
+        justify-content: center;
+    }
+
+    .btn-green {
+        height: 42px;
+        min-width: 120px;
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .first h1,
+    .satauri h1,
+    .teksti h1 {
+        font-size: 20px;
+    }
+
+    .statistika {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .kartochka {
+        justify-content: center;
+    }
+
+    .btn-green {
+        height: 38px;
+        min-width: 110px;
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
