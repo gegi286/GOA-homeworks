@@ -10,15 +10,15 @@ if (age < 0) {
 }
 
 // task2
-let password = prompt("შეიყვანეთ პაროლი:");
-password = password.trim();
+let password = prompt("შეიყვანეთ პაროლი:").trim();
+
 
 if (password === "") {
-    console.log("პაროლი არ შეგიყვანია");
+    console.log("პაროლი არ შეგიყვანია")
 } else if (password === "javascript123") {
-    console.log("სწორი პაროლია");
+    console.log("სწორი პაროლია")
 } else {
-    console.log("არასწორი პაროლი");
+    console.log("არასწორი პაროლი")
 }
 
 // task3
@@ -91,42 +91,7 @@ if (text === "open sesame") {
 }
 
 // task8
-let ticketAge = prompt("შეიყვანეთ ასაკი:");
-
-if (ticketAge <= 0) {
-    console.log("ასაკი არასწორია");
-} else {
-    let ticketType = prompt("შეიყვანეთ ბილეთის ტიპი (standard / vip):");
-    ticketType = ticketType.trim().toLowerCase();
-
-    if (ticketType !== "standard" && ticketType !== "vip") {
-        console.log("ბილეთის ტიპი არასწორია");
-    } else {
-        let ticketUserName = prompt("შეიყვანეთ სახელი:");
-        ticketUserName = ticketUserName.trim();
-
-        if (ticketUserName.toLowerCase() === "admin") {
-            console.log("ადმინისტრატორისთვის ბილეთი უფასოა");
-        } else {
-            let price = 0;
-
-            if (ticketAge < 12) {
-                price = 5;
-            } else if (ticketAge <= 17) {
-                price = 8;
-            } else {
-                price = 15;
-            }
-
-            if (ticketType === "vip") {
-                price = price + 10;
-            }
-
-            console.log(ticketUserName + ", გადასახდელი თანხაა: " + price + " ლარი");
-        }
-    }
-}
-
+// ver gavige
 // task9
 let sentence = prompt("შეიყვანეთ წინადადება:");
 sentence = sentence.trim();
