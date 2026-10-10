@@ -24,10 +24,15 @@ console.log(getAgeCategory(70))
 // task5
 const checkExam = (qula, maqsimaluriQula) => {
     const procenti = (qula / maqsimaluriQula) * 100
-    if (procenti >= 90) return "Excellent"
-    if (procenti >= 75) return "Very Good"
-    if (procenti >= 60) return "Passed"
-    return "Failed"
+    if (procenti >= 90){
+        return "Excellent"
+    }else if (procenti >= 75){
+        return "Very Good"
+    }else if (procenti >= 60){
+        return "Passed"
+    }else{
+        return "Failed"
+    }
 }
 
 console.log(checkExam(45, 50))
@@ -35,9 +40,13 @@ console.log(checkExam(32, 50))
 
 // task6
 const withdraw = (balansi, tanxa) => {
-    if (tanxa <= 0) return "Invalid amount"
-    if (tanxa > balansi) return "Not enough money"
-    return balansi - tanxa
+    if (tanxa <= 0){
+        return "Invalid amount"
+    }else if (tanxa > balansi) {
+        return "Not enough money"
+    }else{
+        return balansi - tanxa
+    }
 }
 
 console.log(withdraw(1000, 300))
