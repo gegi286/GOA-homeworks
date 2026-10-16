@@ -43,11 +43,11 @@ let p1Power = Math.floor(Math.random() * 21) + 10
 let p2Power = Math.floor(Math.random() * 21) + 10
 
 if (p1Power === 20) {
-    p1Power = p1Power + 5
+    p1Power = p1Power += 5
 }
 
 if (p2Power === 20) {
-    p2Power = p2Power + 5
+    p2Power = p2Power += 5
 }
 
 console.log("Player 1: " + p1Power)
@@ -159,11 +159,11 @@ let playerPower = Math.floor(Math.random() * 21) + 10
 let monsterPower = Math.floor(Math.random() * 21) + 10
 
 if (playerPower === 20) {
-    playerPower = playerPower + 5
+    playerPower = playerPower += 5
 }
 
 if (monsterPower === 15) {
-    monsterPower = monsterPower + 10
+    monsterPower = monsterPower += 10
 }
 
 console.log("Player power: " + playerPower)
@@ -189,17 +189,17 @@ let w1Total = w1Attack + w1Defense
 let w2Total = w2Attack + w2Defense
 
 if (w1Attack >= 25) {
-    w1Total = w1Total + 5
+    w1Total = w1Total += 5
 }
 if (w1Defense === 20) {
-    w1Total = w1Total + 10
+    w1Total = w1Total += 10
 }
 
 if (w2Attack >= 25) {
-    w2Total = w2Total + 5
+    w2Total = w2Total += 5
 }
 if (w2Defense === 20) {
-    w2Total = w2Total + 10
+    w2Total = w2Total += 10
 }
 
 console.log("Wizard 1 Total: " + w1Total)
