@@ -20,7 +20,7 @@ if (p1Power1 > 25 && p2Power1 > 25) {
 } else if (p1Power1 === p2Power1) {
     console.log("ფრეა!")
 }
-
+// =============================================================
 let p1Power2 = Math.floor(Math.random() * 21) + 10
 let p2Power2 = Math.floor(Math.random() * 21) + 10
 if (p1Power2 === 20) {
@@ -39,7 +39,7 @@ if (p1Power2 > 25 && p2Power2 > 25) {
 } else if (p1Power2 === p2Power2) {
     console.log("ფრეა!")
 }
-
+// ===============================================================
 let p1Power3 = Math.floor(Math.random() * 21) + 10
 let p2Power3 = Math.floor(Math.random() * 21) + 10
 if (p1Power3 === 20) {
@@ -58,7 +58,7 @@ if (p1Power3 > 25 && p2Power3 > 25) {
 } else if (p1Power3 === p2Power3) {
     console.log("ფრეა!")
 }
-
+// ===============================================================
 let p1Power4 = Math.floor(Math.random() * 21) + 10
 let p2Power4 = Math.floor(Math.random() * 21) + 10
 if (p1Power4 === 20) {
@@ -77,7 +77,7 @@ if (p1Power4 > 25 && p2Power4 > 25) {
 } else if (p1Power4 === p2Power4) {
     console.log("ფრეა!")
 }
-
+// ===============================================================
 let p1Power5 = Math.floor(Math.random() * 21) + 10
 let p2Power5 = Math.floor(Math.random() * 21) + 10
 if (p1Power5 === 20) {
@@ -209,31 +209,31 @@ console.log("საერთო ქულა: " + totalPoints)
 let coinScore = 0
 
 let coin1 = Math.floor(Math.random() * 2)
-let guess1 = Number(prompt("შეიყვანე ვარაუდი 1 (0 ან 1):"))
+let guess1 = Number(prompt("შეიყვანე 1 (0 ან 1):"))
 if (guess1 === coin1) {
     coinScore = coinScore + 10
 }
 
 let coin2 = Math.floor(Math.random() * 2)
-let guess2 = Number(prompt("შეიყვანე ვარაუდი 2 (0 ან 1):"))
+let guess2 = Number(prompt("შეიყვანე 2 (0 ან 1):"))
 if (guess2 === coin2) {
     coinScore = coinScore + 10
 }
 
 let coin3 = Math.floor(Math.random() * 2)
-let guess3 = Number(prompt("შეიყვანე ვარაუდი 3 (0 ან 1):"))
+let guess3 = Number(prompt("შეიყვანე 3 (0 ან 1):"))
 if (guess3 === coin3) {
     coinScore = coinScore + 10
 }
 
 let coin4 = Math.floor(Math.random() * 2)
-let guess4 = Number(prompt("შეიყვანე ვარაუდი 4 (0 ან 1):"))
+let guess4 = Number(prompt("შეიყვანე 4 (0 ან 1):"))
 if (guess4 === coin4) {
     coinScore = coinScore + 10
 }
 
 let coin5 = Math.floor(Math.random() * 2)
-let guess5 = Number(prompt("შეიყვანე ვარაუდი 5 (0 ან 1):"))
+let guess5 = Number(prompt("შეიყვანე 5 (0 ან 1):"))
 if (guess5 === coin5) {
     coinScore = coinScore + 10
 }
