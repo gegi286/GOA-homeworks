@@ -72,7 +72,7 @@ cities[3] = "Gori"
 console.log(cities[0])
 console.log(cities[3])
 console.log(cities.length)
-
+cities = [1,2,3]
 
 // task 9
 const products = ["bread", "milk", "cheese", "butter", "egg"]
