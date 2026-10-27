@@ -42,17 +42,13 @@ console.log(games)
 
 // task 6
 let cities = ["Tbilisi", "Batumi", "Kutaisi", "Rustavi"]
-let cCopy1 = cities.slice()
-cCopy1.splice(1, 1)
-console.log(cCopy1)
+let newCitiesBatumi = cities.toSpliced(1, 1)
+let newCitiesGori = cities.toSpliced(2, 1, "Gori")
+let newCitiesZugdidi = cities.toSpliced(2, 0, "Zugdidi")
 
-let cCopy2 = cities.slice()
-cCopy2[2] = "Gori"
-console.log(cCopy2)
-
-let cCopy3 = cities.slice()
-cCopy3.splice(2, 0, "Zugdidi")
-console.log(cCopy3)
+console.log(newCitiesBatumi)
+console.log(newCitiesGori)
+console.log(newCitiesZugdidi)
 console.log(cities)
 
 
@@ -75,14 +71,14 @@ console.log(flatNumbers)
 console.log(numbers8)
 
 
-// task 9_1
+// task 9-1
 let first9 = ["HTML", "CSS"]
 let second9 = ["JavaScript", "React"]
 let merged9 = first9.concat(second9)
 console.log(merged9)
 
 
-// task 9_2
+// task 9-2
 let fruits9 = ["Apple", "Banana", "Orange", "Kiwi"]
 fruits9.push("Mango")
 fruits9.unshift("Strawberry")
